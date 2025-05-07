@@ -4,7 +4,7 @@ AprilTag 3
 ```
 git clone https://github.com/HKPolyU-UAV/apriltag.git && cd apriltag
 cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --target install
+sudo cmake --build build --target install
 ```
 
 </br></br></br></br>
