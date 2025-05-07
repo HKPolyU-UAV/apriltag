@@ -1,4 +1,14 @@
 AprilTag 3
+## As of 7/May/2025, it can be successfully deployed on ubuntu 20.04 & raspberry pi 4. 
+### TL;DR commands:
+```
+git clone https://github.com/HKPolyU-UAV/apriltag.git && cd apriltag
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --target install
+```
+
+</br></br></br></br>
+
 ==========
 AprilTag is a visual fiducial system popular in robotics research. This repository contains the most recent version of AprilTag, AprilTag 3, which includes a faster (>2x) detector, improved detection rate on small tags, flexible tag layouts, and pose estimation. AprilTag consists of a small C library with minimal dependencies.
 
