@@ -1,6 +1,6 @@
 AprilTag 3
 ## As of 7/May/2025, it can be successfully deployed on ubuntu 20.04 & raspberry pi 4. 
-### TL;DR commands:
+### TL;DR commands for lala install:
 ```
 git clone https://github.com/HKPolyU-UAV/apriltag.git && cd apriltag
 cmake -B build -DCMAKE_BUILD_TYPE=Release
