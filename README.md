@@ -5,6 +5,8 @@ AprilTag 3
 git clone https://github.com/HKPolyU-UAV/apriltag.git && cd apriltag
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 sudo cmake --build build --target install
+
+ldconfig -p | grep apriltag
 ```
 
 </br></br></br></br>
