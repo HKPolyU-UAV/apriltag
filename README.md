@@ -1,5 +1,7 @@
-AprilTag 3
-## As of 7/May/2025, it can be successfully deployed on ubuntu 20.04 & raspberry pi 4. 
+
+# AprilTag 3
+
+ 
 ### TL;DR commands for lala install:
 ```
 git clone https://github.com/HKPolyU-UAV/apriltag.git && cd apriltag
@@ -7,7 +9,14 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release
 sudo cmake --build build --target install
 
 ldconfig -p | grep apriltag
+
+# example
+grlopi@m1:~/modular_drone/ros2_ws$ sudo ldconfig
+grlopi@m1:~/modular_drone/ros2_ws$ ldconfig -p | grep libapriltag || true
 ```
+
+## As of 31/Jan/2026, it can be successfully deployed on ubuntu 22.04 w/ x86/arm64 
+## As of 7/May/2025, it can be successfully deployed on ubuntu 20.04 & raspberry pi 4.
 
 </br></br></br></br>
 
